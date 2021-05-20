@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+[[mods]]
+modId="map_printer"
+version="${file.jarVersion}"
+displayName="Map Printer"
+logoFile="icon.png"
+credits="Jrm_Wrm"
+authors="limelier"
+description='''
+Save maps to a png file from inside the game - Forge version.
+'''
+[[dependencies.limelier]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.limelier]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
